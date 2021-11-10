@@ -5,8 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RomanNumerals"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        WindowStartupLocation="CenterScreen"
+        Title="Roman Calculator" Height="289" Width="344">
     <Grid>
+        <!--#Numbers-->
+        <Button Content="I" HorizontalAlignment="Left" Margin="29,146,0,0" VerticalAlignment="Top" Height="32" Width="32"/>
+        <Button Content="V" HorizontalAlignment="Left" Margin="66,146,0,0" VerticalAlignment="Top" Height="32" Width="32"/>
+        <Button Content="X" HorizontalAlignment="Left" Margin="103,146,0,0" VerticalAlignment="Top" Height="32" Width="32"/>
+        <Button Content="L" HorizontalAlignment="Left" Margin="140,146,0,0" VerticalAlignment="Top" Height="32" Width="32"/>
+        <Button Content="C" HorizontalAlignment="Left" Margin="29,183,0,0" VerticalAlignment="Top" Height="32" Width="32"/>
+        <Button Content="D" HorizontalAlignment="Left" Margin="66,183,0,0" VerticalAlignment="Top" Height="32" Width="32"/>
+        <Button Content="M" HorizontalAlignment="Left" Margin="103,183,0,0" VerticalAlignment="Top" Height="32" Width="32"/>
+        <Button Content="¯" HorizontalAlignment="Left" Margin="140,183,0,0" VerticalAlignment="Top" Height="32" Width="32"/>
+
+        <!--#Operators-->
+        <Button Content="+" HorizontalAlignment="Right" Margin="0,146,31,0" VerticalAlignment="Top" Height="32" Width="32"/>
+        <Button Content="-" HorizontalAlignment="Right" Margin="0,146,68,0" VerticalAlignment="Top" Height="32" Width="32"/>
 
     </Grid>
 </Window>
