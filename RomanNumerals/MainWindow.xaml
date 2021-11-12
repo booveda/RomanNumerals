@@ -5,22 +5,29 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RomanNumerals"
         mc:Ignorable="d"
+        WindowStyle="None"
         WindowStartupLocation="CenterScreen"
         Title="Roman Calculator" Height="289" Width="344">
-    <Grid>
+    <Grid Background="#2D1575" >
+        
+        <DockPanel>
+            <Label Content="|" Margin="10" Padding="10" Background="#706E76" VerticalAlignment="Top" Foreground="White" FontWeight="Bold" FontSize="24" />
+        </DockPanel>
         <!--#Numbers-->
-        <Button Content="I" HorizontalAlignment="Left" Margin="29,146,0,0" VerticalAlignment="Top" Height="32" Width="32"/>
-        <Button Content="V" HorizontalAlignment="Left" Margin="66,146,0,0" VerticalAlignment="Top" Height="32" Width="32"/>
-        <Button Content="X" HorizontalAlignment="Left" Margin="103,146,0,0" VerticalAlignment="Top" Height="32" Width="32"/>
-        <Button Content="L" HorizontalAlignment="Left" Margin="140,146,0,0" VerticalAlignment="Top" Height="32" Width="32"/>
-        <Button Content="C" HorizontalAlignment="Left" Margin="29,183,0,0" VerticalAlignment="Top" Height="32" Width="32"/>
-        <Button Content="D" HorizontalAlignment="Left" Margin="66,183,0,0" VerticalAlignment="Top" Height="32" Width="32"/>
-        <Button Content="M" HorizontalAlignment="Left" Margin="103,183,0,0" VerticalAlignment="Top" Height="32" Width="32"/>
-        <Button Content="¯" HorizontalAlignment="Left" Margin="140,183,0,0" VerticalAlignment="Top" Height="32" Width="32"/>
+        <Button Content="I" HorizontalAlignment="Left" Margin="29,146,0,0" VerticalAlignment="Top" Height="32" Width="32" Background="#3500B0" Foreground="White" Click="Button_Click" />
+        <Button Content="V" HorizontalAlignment="Left" Margin="66,146,0,0" VerticalAlignment="Top" Height="32" Width="32" Background="#3500B0" Foreground="White"/>
+        <Button Content="X" HorizontalAlignment="Left" Margin="103,146,0,0" VerticalAlignment="Top" Height="32" Width="32" Background="#3500B0" Foreground="White"/>
+        <Button Content="L" HorizontalAlignment="Left" Margin="140,146,0,0" VerticalAlignment="Top" Height="32" Width="32" Background="#3500B0" Foreground="White"/>
+        <Button Content="C" HorizontalAlignment="Left" Margin="29,183,0,0" VerticalAlignment="Top" Height="32" Width="32" Background="#3500B0" Foreground="White"/>
+        <Button Content="D" HorizontalAlignment="Left" Margin="66,183,0,0" VerticalAlignment="Top" Height="32" Width="32" Background="#3500B0" Foreground="White"/>
+        <Button Content="M" HorizontalAlignment="Left" Margin="103,183,0,0" VerticalAlignment="Top" Height="32" Width="32" Background="#3500B0" Foreground="White"/>
+        <Button Content="¯" HorizontalAlignment="Left" Margin="140,183,0,0" VerticalAlignment="Top" Height="32" Width="32" Background="#3500B0" Foreground="White"/>
 
         <!--#Operators-->
-        <Button Content="+" HorizontalAlignment="Right" Margin="0,146,31,0" VerticalAlignment="Top" Height="32" Width="32"/>
-        <Button Content="-" HorizontalAlignment="Right" Margin="0,146,68,0" VerticalAlignment="Top" Height="32" Width="32"/>
+        <Button Content="+" HorizontalAlignment="Right" Margin="0,146,31,0" VerticalAlignment="Top" Height="32" Width="32" Background="#1D0061" Foreground="White"/>
+        <Button Content="-" HorizontalAlignment="Right" Margin="0,146,68,0" VerticalAlignment="Top" Height="32" Width="32" Background="#1D0061" Foreground="White"/>
+        <Button Content="Delete" HorizontalAlignment="Right" Margin="0,183,31,0" VerticalAlignment="Top" Height="32" Width="68" Background="#1D0061" Foreground="White"/>
+        <Button Content="=" HorizontalAlignment="Right" Margin="0,216,31,0" VerticalAlignment="Top" Height="32" Width="68" Background="#1D0061" Foreground="White"/>
 
     </Grid>
 </Window>
